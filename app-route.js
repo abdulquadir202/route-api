@@ -1,31 +1,6 @@
 const yargs = require('yargs');
 const axios = require('axios');
 
-// const argv = yargs
-//     .options({
-//         route: {
-//             demand:true,
-//             alias:'route',
-//             describe:'route to fetch weather for',
-//             string: true
-//         },
-//         stop: {
-//             demand:true,
-//             alias:'stop',
-//             describe:'route to fetch weather for',
-//             string: true
-//         },
-//         direction: {
-//             demand:true,
-//             alias:'route',
-//             describe:'route to fetch weather for',
-//             string: true
-//         }
-//     })
-//     .help()
-//     .alias('help', 'h')
-//     .argv;
-
 var getRoutes = `http://svc.metrotransit.org/NexTrip/Routes`;
 
 var routeNo;
